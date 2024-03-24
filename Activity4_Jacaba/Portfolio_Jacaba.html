@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>My Simple Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Portfolio_Jacaba.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: #aa6f73; /* Copper Penny */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #eea990; /* Pantone */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #f6e0b5; /* Wheat */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color:#2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Me</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">WHO</a></li>
+        <li><a href="#">WHAT</a></li>
+        <li><a href="#">ABOUT ME</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Who Am I?</h3>
+  <img src="C:\Users\user\Documents\GitHub\Activity4_Jacaba\Activity4_Jacaba\profile.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Me" width="350" height="350">
+  <h3>Hi I'm Desiree S. Jacaba. An IT student, designer, video editor and student volunteer. </h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">What Am I?</h3>
+  <p>I graduated at Canitoan National High School last 2022 with a strand in Information 
+    Communications and Technology under TVL track and received a certificate for Computer Systems 
+    Servicing NCII. I have an excellent problem-solving abilities, adaptable to changing 
+    priorities and deadlines in a fast-paced work environment and dedicated to continuous learning
+    and staying update with industry trends and technologies.</p>
+ 
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin">About Me</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>I code using programming languages such as Python and Java. I also make simple websites 
+        using HTML and CSS.</p>
+      <img src="C:\Users\user\Documents\GitHub\Activity4_Jacaba\Activity4_Jacaba\image1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>I design things using computer. I have knowledge in prototyping and have the 
+        ability to perform basic and advanced video editing techniques. 
+      </p>
+      <img src="C:\Users\user\Documents\GitHub\Activity4_Jacaba\Activity4_Jacaba\image2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>I have experience fixing both computer hardware and software. I also practice installing Windows and Linux OS using
+        Virtual Box.</p>
+      <img src="C:\Users\user\Documents\GitHub\Activity4_Jacaba\Activity4_Jacaba\image3.png" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>Went to University of Science and Technology of Southern Philippines</p> 
+</footer>
+
+</body>
+</html>
